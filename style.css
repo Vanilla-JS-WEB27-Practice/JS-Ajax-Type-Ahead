@@ -59,10 +59,15 @@ input.search {
     background: linear-gradient(to top, #ffffff 0%, #EFEFEF 100%);
 }
 
+.suggestions li:nth-child(even) {
+    transform: perspective(100px) rotateX(3deg) translateY(3px);
+    background: linear-gradient(to top, #ffffff 0%, #EFEFEF 100%);
+}
+
 span.population {
     font-size: 15px;
 }
 
-.h1 {
+.highlight {
     background: #ffc600;
 }
