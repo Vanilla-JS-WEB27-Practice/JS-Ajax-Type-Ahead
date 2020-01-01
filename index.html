@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Type Ahead 👀</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form class="search-form">
@@ -25,7 +26,7 @@
 
         fetch(endpoint)
             .then(blob => blob.json())
-            .then(data => console.log(data));
+            .then(data => cities.push(...data));
 
     </script>
 </body>
